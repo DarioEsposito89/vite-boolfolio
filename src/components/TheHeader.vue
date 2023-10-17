@@ -11,7 +11,7 @@
                     
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                     </ul>
 

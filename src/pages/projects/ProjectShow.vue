@@ -36,13 +36,13 @@
 </script>
 
 <template>
-    <div class="container text-white">
+    <div class="container">
         <div class="row">
             <div class="col">
                 <div class="box">
                     <h1 class="display-4 pb-3">{{ project.title }}</h1>
 
-                    <div class="img-container-show text-center mb-5">
+                    <div class="container text-center mb-5">
                         <img :src="getImg(project)" alt="" class="w-75">
                     </div>
 

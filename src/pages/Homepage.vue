@@ -57,10 +57,6 @@
                 </div> 
         </div>
     </div>
-
-    <div class="watch-more mt-5 text-center">
-        <a href="" class="btn btn-primary more-button">WATCH MY PROJECTS</a>
-    </div> 
 </div> 
 </template>
 

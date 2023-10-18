@@ -51,7 +51,7 @@
                     </div>
                     <p>Type: {{ project.type?.type ?? "" }}</p> 
                     <p class="">GitHub: 
-                        <a href="{{ project.link }}">Link</a>
+                        <a href="{{ project.link }}">Click Here</a>
                     </p>
                     <p>{{ project.description }}</p>
                     <p>Release: {{ formatDate(project.release) }}</p>

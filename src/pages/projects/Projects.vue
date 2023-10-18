@@ -33,7 +33,7 @@ mounted() {
 
 <template>
     <div class="container text-center pt-5">
-        <h2>LOOK MY PROJECTS</h2>
+        <h2>MY PROJECTS</h2>
 
         <div class="row row-cols-3 mt-5 g-5 p-2" >
                 <div class="col mt-5" v-for="project in projects">

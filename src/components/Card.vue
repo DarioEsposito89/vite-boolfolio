@@ -17,6 +17,7 @@
             <img :src="getImg(singleCard)" class="card-img-top" alt="">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">{{singleCard.title}}</h5>
+                <span class="badge p-2 my-2" style="background-color: rgb(57, 57, 57);">{{ singleCard.type.type }}</span>
                 <router-link :to="{ name: 'project.show', params: { slug: singleCard.slug}}" class="btn btn-primary">Dettagli</router-link>
             </div>
         </div>

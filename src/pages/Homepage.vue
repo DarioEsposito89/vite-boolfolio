@@ -14,7 +14,7 @@
         },
         methods: {
 
-        // CHIAMATA AXIOS PER OTTENERE I PROGETTI
+        // CHIAMATA AXIOS 
         getProjects() {
             axios.get("http://127.0.0.1:8000/api/projects")
                 .then((response) => {
